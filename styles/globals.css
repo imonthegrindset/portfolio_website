@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 
 html, body {
@@ -18,5 +17,11 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Oxygen';
+  src: url('../public/Oxygen-Regular.ttf')
+
 }
 
