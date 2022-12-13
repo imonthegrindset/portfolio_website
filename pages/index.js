@@ -40,7 +40,7 @@ export default function Home() {
             bg-clip-text bg-gradient-to-b from-rose-700 to-violet-500 md:text-4xl lg:text-5xl ">Logan Robitaille</h2>
             <h3 className="text-md font-semibold py-2 text-rose-700 md:text-xl lg:text-2xl ">Fullstack Junior Developer</h3>
             <p className="text-md pt-2 leading-8 text-gray-800 lg:text-lg dark:text-white">
-              Self-taught junior developer specializing in frontend development.
+              Self-taught fullstack web developer specializing in frontend development.
             </p>
             <p className="text-md mx-auto pb-2 leading-8 text-gray-800 lg:text-lg dark:text-gray-100">
               Well-versed in JavaScript, React.js, Next.js, HTML, CSS, Tailwind CSS, Node.js & Express.js
@@ -56,40 +56,36 @@ export default function Home() {
             <h3 className='text-2xl py-5 font-semibold text-transparent 
           bg-clip-text bg-gradient-to-b from-rose-700 to-violet-500 flex justify-center md:text-3xl lg:text-4xl'>What I bring to the table</h3>
             <p className='text-md py-2 pb-5 leading-8 text-gray-800 text-center lg:text-lg'>
-              Paragraph. Paragraph. Paragraph. Paragraph. Paragraph. Paragraph.
-              Paragraph. Paragraph. Paragraph. Paragraph. Paragraph. Paragraph.
+              I've completed <a className='text-rose-400' href='https://www.theodinproject.com/paths/full-stack-javascript?'>The Odin Project Curriculum</a>, which has given me <strong>3</strong> main skills that bring value.
             </p>
           </div>
           <div className='lg:flex flex-row gap-5 justify-center'>
-            <div className='mb-5 text-center shadow-xl p-10 rounded-lg lg:text-lg px-15 bg-white'>
+            <div className='mb-5 text-center shadow-xl p-10 rounded-lg w-100 lg:text-lg lg:px-15 bg-white lg:w-1/3'>
               <Image src={computer} width={100} height={100} className='mx-auto' />
-              <h3 className='text-lg font-semibold py-2 text-rose-700 lg:text-xl'>Beautiful Designs</h3>
-              <p className='py-2 leading-8 text-gray-800'>Beautiful Designs. Beautiful Designs.
-                Beautiful Designs.</p>
-              <h4 className="text-md font-semibold py-2 text-rose-700">What I use</h4>
-              <p className='text-gray-800 py-1'> Language</p>
-              <p className='text-gray-800 py-1'>Framework</p>
-              <p className='text-gray-800 py-1'>Tool</p>
+              <h3 className='text-lg font-semibold py-2 text-rose-700 lg:text-xl'>Modern Frontend Development</h3>
+              <p className='py-2 leading-8 text-gray-800'>As you can see with this web page, I know how to give a website a simple, yet modern feel.</p>
+              <h4 className="text-md font-semibold py-2 text-rose-700">What I Use</h4>
+              <p className='text-gray-800 py-1'>Next.js & React</p>
+              <p className='text-gray-800 py-1'>Tailwind CSS</p>
+              <p className='text-gray-800 py-1'> Many other libraries </p>
             </div>
-            <div className='mb-5 text-center shadow-xl p-10 rounded-lg lg:text-lg px-15 bg-white'>
+            <div className='mb-5 text-center shadow-xl p-10 rounded-lg lg:text-lg lg:px-15 bg-white lg:w-1/3'>
               <Image src={book} width={100} height={100} className='mx-auto' />
-              <h3 className='text-lg font-semibold py-2 text-rose-700 lg:text-xl'>Beautiful Designs</h3>
-              <p className='py-2 leading-8 text-gray-800'>Beautiful Designs. Beautiful Designs.
-                Beautiful Designs.</p>
-              <h4 className="text-md font-semibold py-2 text-rose-700">What I use</h4>
-              <p className='text-gray-800 py-1'> Language</p>
-              <p className='text-gray-800 py-1'>Framework</p>
-              <p className='text-gray-800 py-1'>Tool</p>
+              <h3 className='text-lg font-semibold py-2 text-rose-700 lg:text-xl'>Backend Development</h3>
+              <p className='py-2 leading-8 text-gray-800'>I can manage the backend using many frameworks & services.</p>
+              <h4 className="text-md font-semibold py-2 text-rose-700">What I Use</h4>
+              <p className='text-gray-800 py-1'> Node.js</p>
+              <p className='text-gray-800 py-1'>Express.js</p>
+              <p className='text-gray-800 py-1'>Firebase & MongoDB</p>
             </div>
-            <div className='mb-5 text-center shadow-xl p-10 rounded-lg lg:text-lg px-15 bg-white'>
+            <div className='mb-5 text-center shadow-xl p-10 rounded-lg lg:text-lg lg:px-15 bg-white lg:w-1/3'>
               <Image src={thumb} width={100} height={100} className='mx-auto' />
-              <h3 className='text-lg font-semibold py-2 text-rose-700 lg:text-xl'>Beautiful Designs</h3>
-              <p className='py-2 leading-8 text-gray-800'>Beautiful Designs. Beautiful Designs.
-                Beautiful Designs.</p>
-              <h4 className="text-md font-semibold py-2 text-rose-700">What I use</h4>
-              <p className='text-gray-800 py-1'> Language</p>
-              <p className='text-gray-800 py-1'>Framework</p>
-              <p className='text-gray-800 py-1'>Tool</p>
+              <h3 className='text-lg font-semibold py-2 text-rose-700 lg:text-xl'>Tireless Work</h3>
+              <p className='py-2 leading-8 text-gray-800'>Having dropped out of college to teach myself software development, I know what it takes to self-motivate and work efficiently.</p>
+              <h4 className="text-md font-semibold py-2 text-rose-700">What I Am</h4>
+              <p className='text-gray-800 py-1'>Fast Learner</p>
+              <p className='text-gray-800 py-1'>Hard Worker</p>
+              <p className='text-gray-800 py-1'>Enthusiastic & Cooperative</p>
             </div>
           </div>
         </section>
@@ -103,6 +99,17 @@ export default function Home() {
           <div>
             <h3 className='text-2xl py-5 font-semibold text-transparent 
           bg-clip-text bg-gradient-to-b from-rose-700 to-violet-500 flex justify-center md:text-3xl lg:text-4xl'>About Me</h3>
+            <div className='flex flex-col items-center gap-4 text-gray-800 text-md lg:text-lg'>
+              <p className='text-center'>My name is Logan, I'm 21 years old, and I'm a self-taught fullstack web developer looking for his first job in the field.</p>
+              <p className='text-center'>After spending 4 years in college without a real direction, I came to the conclusion that dropping out and pursuing a career in a field which I enjoyed a lot was probably the ideal choice for me.</p>
+              <p className='text-center'>I've spent the past year (through many resources, including the infamous <a className='text-rose-400' href='https://www.theodinproject.com/paths/full-stack-javascript?'>Odin Project Curriculum</a>), building projects and working hard to improve my programming skills.</p>
+            </div>
+
+            <p className='text-center text-lg font-semibold text-gray-800 my-10 lg:text-xl'>To the point where I'm confident that I'm ready for my first job in the field.</p>
+            <ul>
+              <ol></ol>
+            </ul>
+
           </div>
         </section>
         <section className='bg-white px-10 md:px-20 lg:px-40'>
